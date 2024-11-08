@@ -1,6 +1,6 @@
 # next.watanabe3ti.com [(mirror)](https://watanabe3tipapa.github.io/next/)
 ### Use quarto as site generator
-#### GitHub Pages version applies style CSS (Style.css file)
+#### GitHub Pages version applies style CSS (styles.css file)
 ![](/assets/quarto-logo.png)
 
 

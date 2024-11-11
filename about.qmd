@@ -1,0 +1,16 @@
+---
+title: "About"
+author: "watanabe3tipapa"
+date: last-modified
+image: "assets/quarto-logo.png"
+description: |
+  コードと文章を融合させた魅力的なドキュメントとは ...
+categories: [Quarto, Markdown, Notation ]
+tags: [quarto, cms, git ]
+---
+
+## Rとquarto
+
+![](./assets/UC900.jpg)
+
+------------------------------------------------------------------------

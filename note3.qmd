@@ -1,0 +1,18 @@
+---
+title: "Note3"
+author: "watanabe3tipapa"
+date: last-modified
+image: "assets/quarto-logo.png"
+description: |
+  Note3
+categories: [Quarto, Markdown, Notation ]
+tags: [quarto, cms, git ]
+
+---
+
+## Note3とは？
+
+![](./assets/UC900.jpg)
+
+
+---

@@ -1,0 +1,24 @@
+---
+title: "LOGについて"
+author: "watanabe3tipapa"
+date: last-modified
+image: "assets/quarto-logo.png"
+description: |
+  log.watanabe3ti.comも WordPress を利用し構築したサイトです。
+  WPのテーマを試したりファイルのコンバートを試験する目的で設置しています。
+categories: [Quarto, Markdown, Notation ]
+tags: [quarto, cms, git ]
+
+---
+
+## log.watanabe3ti.comとは？
+
+log.watanabe3ti.comは、インプレッション・アーカイブです。
+ただし、自分用。
+
+## log.watanabe3ti.com 開設の動機
+
+![](./assets/UC900.jpg)
+
+
+---

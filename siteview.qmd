@@ -1,0 +1,60 @@
+---
+title: "Site view"
+author: "watanabe3tipapa"
+date: last-modified
+image: "assets/quarto-logo.png"
+description: |
+  next.watanabe3ti.comは quartoを利用し構築したサイトです。
+  ティザーサイトとしての役割（？）もあると思っています。
+  コードと文章を融合させた魅力的なドキュメントは良いものです。
+categories: [Quarto, Markdown, Notation ]
+tags: [quarto, cms, git ]
+
+---
+
+About this Site view
+
+
+###（初期設定時のファイル配置）
+
+```bash
+├── _quarto.yml
+├── about.qmd
+├── assets
+├── blogs.qmd
+├── github-note.qmd
+├── index.qmd
+├── log.qmd
+├── main.qmd
+├── nextwatanabe3ticom.Rproj
+├── note1.qmd
+├── note2.qmd
+├── note3.qmd
+├── quarto.qmd
+├── siteview.qmd
+├── styles.css
+├── toolsmith.qmd
+├── webroot
+│   ├── about.html
+│   ├── assets
+│   ├── blogs.html
+│   ├── github.html
+│   ├── index.html
+│   ├── log.html
+│   ├── main.html
+│   ├── note1.html
+│   ├── note2.html
+│   ├── note3.html
+│   ├── quarto.html
+│   ├── search.json
+│   ├── site_libs
+│   ├── siteview.html
+│   ├── styles.css
+│   ├── toolsmith.html
+│   └── wiki.html
+└── wiki.qmd
+
+
+```
+
+---

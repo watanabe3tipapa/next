@@ -1,0 +1,75 @@
+project:
+  type: website
+  output-dir: webroot
+
+website:
+  title: next.watanabe3ti.com
+  navbar:
+    aria-label: Main navigation
+    background: dark
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: SubDomain
+        menu:
+          - href: main.qmd
+            text: Main
+          - href: toolsmith.qmd
+            text: Toolsmith
+          - href: wiki.qmd
+            text: Wiki
+          - href: blogs.qmd
+            text: Blogs
+          - href: log.qmd
+            text: LOG
+          - href: github-note.qmd
+            text: Github-note
+      - text: Contents
+        menu:
+          - href: about.qmd
+            text: About
+          - href: note1.qmd
+            text: Note1
+          - href: note2.qmd
+            text: Note2
+          - href: note3.qmd
+            text: Note3
+          - href: quarto.qmd
+            text: Quarto
+      - text: Siteview
+        href: siteview.qmd
+    right:
+      - icon: github
+        href: https://github.com/watanabe3tipapa/next
+        text: GitHub
+  page-footer:
+    background: dark
+    left: Copyright 2024, watanabe3tipapa
+    right:
+      - icon: github
+        href: https://github.com/watanabe3tipapa
+
+  open-graph: true
+
+format:
+  html:
+    theme:
+      light:
+        - flatly
+        - custom.scss
+      dark:
+        - darkly
+        - custom.scss
+    css:
+      - styles.css
+      - custom-responsive.css
+    toc: true
+    toc-location: left
+    code-fold: true
+    highlight-style: github
+    mainfont: Noto Sans JP
+    monofont: Fira Code
+    html-math-method: katex
+
+lang: ja-JP

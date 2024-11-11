@@ -1,0 +1,18 @@
+---
+title: "GitHub（mirror）について"
+author: "watanabe3tipapa"
+date: last-modified
+image: "assets/quarto-logo.png"
+description: |
+  GitHubには ...
+categories: [Git, GitHub, CI, API ]
+tags: [git, ssh, yml ]
+
+---
+
+## GitHub（mirror）とは？
+
+![](./assets/UC900.jpg)
+
+
+---

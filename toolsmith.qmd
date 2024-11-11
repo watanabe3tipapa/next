@@ -1,0 +1,489 @@
+---
+title: "TOOLSMITHについて"
+author: "watanabe3tipapa"
+date: last-modified
+image: "assets/quarto-logo.png"
+description: |
+  toolsmith.watanabe3ti.comは baserCMSを利用し構築したサイトです。
+  ティザーサイトとしての役割（？）もあると思っています。
+  コードと文章を融合させた魅力的なドキュメントは良いものです。
+categories: [Quarto, Markdown, Notation ]
+tags: [basercms, cms, git ]
+
+---
+
+## toolsmith.watanabe3ti.comとは？
+
+toolsmith.watanabe3ti.comは、BaserCMSで構築しています。
+単一のフォーマットから、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができます。
+
+## baserCMSについて
+
+### baserCMSとは
+
+baserCMSは、PHPベースのオープンソースCMSプラットフォームで、以下のような特徴があります：
+
+- **柔軟なカスタマイズ性**
+  - テーマシステムによる自由なデザイン変更
+  - プラグインによる機能拡張
+  - PHPによる開発のしやすさ
+
+- **使いやすい管理画面**
+  - 直感的なユーザーイターフェース
+  - ドラッグ&ドロップによるコンテンツ管理
+  - SEOに配慮した設定オプション
+
+- **高い拡張性**
+  - カスタムコンテンツタイプの作成
+  - APIによる外部システムとの連携
+  - マルチサイト機能
+
+### なぜbaserCMSを選んだのか
+
+1. **日本製CMSのメリット**
+    - 日本語環境の完全サポート
+    - 国内での充実したコミュニティ
+    - 日本のウェブ慣習に適合
+
+2. **開発のしやすさ**
+    - PHPベースの親しみやすい環境
+    - CakePHPフレームワークの採用
+    - 豊富なドキュメントとサポート
+
+3. **セキュリティと安定性**
+    - 定期的なアップデート
+    - セキュリティ対策の充実
+    - 実績のある運用実績
+
+## baserCMSの追加特徴
+
+### 1. コンテンツ管理の高度な機能
+
+- **バージョン管理システム**
+  - コンテンツの変更履歴管理
+  - 複数バージョンの保存と復元
+  - チーム作業での変更追跡
+
+- **高度なメディア管理**
+  - 画像の自動リサイズ
+  - WebP形式の自動変換対応
+  - メディアライブラリの階層管理
+
+### 2. マルチデバイス対応
+
+- **レスポンシブデザイン対応**
+  - モバイルファースト設計
+  - AMP対応可能
+  - プレビュー機能でのデバイス別確認
+
+### 3. パフォーマンス最適化
+
+- **キャッシュシステム**
+  - ページキャッシュ機能
+  - データベースクエリ最適化
+  - CDN連携サポート
+
+### 4. 開発者向け機能
+
+- **APIサポート**
+  - RESTful API対応
+  - GraphQL対応（プラグイン利用）
+  - Webhookによる外部連携
+
+### 5. セキュリティ機能
+
+- **高度な認証システム**
+  - 二要素認証対応
+  - IPアドレス制限
+  - ログイン試行制限
+
+- **データ保護**
+  - バックアップ機能
+  - データの自動暗号化
+  - SSLサポート
+
+## なぜbaserCMSを使うのか？(技術的観点)
+
+### 1. 効率的なコンテンツ管理
+
+- **直感的な管理画面**
+  - ドラッグ&ドロップによる簡単な操作
+  - WYSIWYGエディタによる編集
+  - メディアライブラリの統合管理
+
+### 2. 開発効率の向上
+
+- **モダンな開発環境**
+  - CakePHPフレームワークベース
+  - コンポーネント指向の設計
+  - 充実した開発者ドキュメント
+
+### 3. ビジネスニーズへの適応
+
+- **拡張性と柔軟性**
+  - カスタムプラグインの開発
+  - テーマによるデザインカスタマイズ
+  - マルチサイト運用のサポート
+
+### 4. 運用とメンテナンス
+
+- **安定した運用基盤**
+  - 定期的なセキュリティアップデート
+  - アクティブなコミュニティサポート
+  - 豊富な実績と導入事例
+
+## 始め方
+
+1. baserCMSのインストール
+
+```bash
+# Composerを使用してインストール
+composer create-project baserproject/basercms
+
+# または、GitHubからクローン
+git clone https://github.com/baserproject/basercms.git
+cd basercms
+composer install
+```
+
+2. データベースの設定
+```bash
+# 設定ファイルの作成
+cp config/.env.example config/.env
+cp config/app_local.example.php config/app_local.php
+
+# データベース接続情報を編集
+nano config/.env
+```
+
+3. インストールスクリプトの実行
+```bash
+# インストールスクリプトを実行
+bin/cake basercms install
+```
+
+4. 開発サーバーの起動
+```bash
+bin/cake server
+```
+
+これで http://localhost:8765 にアクセスして管理画面を確認できます。
+
+### 初期設定のポイント
+
+- 管理者アカウントの作成
+- サイト基本設定の構成
+- テーマの選択とカスタマイズ
+- 必要なプラグインのインストール
+
+## baserCMSの技術的特徴
+
+### 1. アーキテクチャ設計
+
+- **MVCアーキテクチャ**
+  - CakePHP 4.x ベースの堅牢な設計
+  - プラグインアーキテクチャによる機能拡張
+  - イベント駆動型のシステム設計
+
+- **モジュール構成**
+  ```php
+  // プラグイン構造の例
+  plugins/
+    ├── MyPlugin/
+    │   ├── config/
+    │   ├── src/
+    │   │   ├── Controller/
+    │   │   ├── Model/
+    │   │   └── View/
+    │   └── templates/
+  ```
+
+### 2. データベース設計
+
+- **ORMの活用**
+  - エンティティとテーブルの明確な分離
+  - リレーションの柔軟な定義
+  - マイグレーションによるバージョン管理
+
+```php
+// エンティティの例
+class Content extends Entity
+{
+    protected $_accessible = [
+        '*' => true,
+        'id' => false
+    ];
+    
+    protected function _getFullTitle()
+    {
+        return $this->title . ' (' . $this->id . ')';
+    }
+}
+```
+
+### 3. APIとインテグレーション
+
+- **RESTful API実装**
+  ```php
+  // APIコントローラーの例
+  class ApiController extends AppController
+  {
+      public function initialize(): void
+      {
+          parent::initialize();
+          $this->loadComponent('RequestHandler');
+      }
+  }
+  ```
+
+### 4. キャッシュシステム
+
+- **階層的キャッシュ**
+  - ビューキャッシュ
+  - クエリキャッシュ
+  - オブジェクトキャッシュ
+
+```php
+// キャッシュ設定例
+Configure::write('Cache._cake_model_', [
+    'className' => 'File',
+    'prefix' => 'myapp_cake_model_',
+    'path' => CACHE . 'models/',
+    'serialize' => true,
+    'duration' => '+1 years'
+]);
+```
+
+### 5. セキュリティ実装
+
+- **XSS対策**
+  ```php
+  // テンプレートでのエスケープ処理
+  <?= h($content->title) ?>
+  ```
+
+- **CSRF保護**
+  ```php
+  // フォームでのCSRFトークン
+  <?= $this->Form->create($entity) ?>
+  // 自動的にCSRFトークンが追加される
+  ```
+
+### 6. カスタムフィールドタイプ
+
+```php
+// カスタムフィールドの実装例
+class CustomField extends BcCustomField
+{
+    public function initialize(array $config): void
+    {
+        parent::initialize($config);
+        
+        $this->addFieldType('custom_type', [
+            'template' => 'custom_field',
+            'validator' => 'customValidation'
+        ]);
+    }
+}
+```
+
+### 7. イベントシステム
+
+```php
+// イベントリスナーの例
+class CustomEventListener implements EventListenerInterface
+{
+    public function implementedEvents(): array
+    {
+        return [
+            'Model.beforeSave' => 'beforeSave',
+            'Controller.beforeRender' => 'beforeRender'
+        ];
+    }
+    
+    public function beforeSave(Event $event, Entity $entity)
+    {
+        // 保存前の処理
+    }
+}
+```
+
+## システムの拡張性と柔軟性
+
+### 1. カスタムプラグイン開発
+
+```php
+// plugins/MyCustomPlugin/src/Plugin.php
+namespace MyCustomPlugin;
+
+use BaserCore\BcPlugin;
+use Cake\Core\ContainerInterface;
+
+class Plugin extends BcPlugin
+{
+    public function services(ContainerInterface $container): void
+    {
+        // サービス登録
+        $container->add('MyCustomService', function () {
+            return new MyCustomService();
+        });
+    }
+
+    public function initialize(): void
+    {
+        parent::initialize();
+        
+        // カスタムイベントの登録
+        $this->addEvent('MyCustom.afterProcess', [
+            'callable' => ['MyCustomEventListener', 'afterProcess']
+        ]);
+    }
+}
+```
+
+### 2. カスタムコントローラーの実装
+
+```php
+// plugins/MyCustomPlugin/src/Controller/CustomController.php
+namespace MyCustomPlugin\Controller;
+
+use BaserCore\Controller\Admin\BcAdminAppController;
+
+class CustomController extends BcAdminAppController
+{
+    public function initialize(): void
+    {
+        parent::initialize();
+        
+        // コンポーネントの読み込み
+        $this->loadComponent('Paginator');
+        $this->loadComponent('Security');
+        
+        // 認証の設定
+        $this->Authentication->allowUnauthenticated(['index', 'view']);
+    }
+    
+    public function customAction()
+    {
+        // カスタム処理
+        $result = $this->CustomModel->customProcess();
+        
+        // APIレスポンス
+        $this->set(compact('result'));
+        $this->viewBuilder()->setOption('serialize', ['result']);
+    }
+}
+```
+
+### 3. カスタムモデルとバリデーション
+
+```php
+// plugins/MyCustomPlugin/src/Model/Table/CustomTable.php
+namespace MyCustomPlugin\Model\Table;
+
+use Cake\ORM\Table;
+use Cake\Validation\Validator;
+
+class CustomTable extends Table
+{
+    public function initialize(array $config): void
+    {
+        parent::initialize($config);
+        
+        // ビヘイビアの追加
+        $this->addBehavior('Timestamp');
+        $this->addBehavior('BaserCore.BcUpload', [
+            'fields' => ['image' => [
+                'type' => 'image',
+                'thumbnailSizes' => ['small' => '100x100']
+            ]]
+        ]);
+        
+        // アソシエーションの設定
+        $this->belongsTo('Categories');
+        $this->hasMany('Comments');
+    }
+    
+    public function validationDefault(Validator $validator): Validator
+    {
+        $validator
+            ->requirePresence('title')
+            ->notEmptyString('title')
+            ->maxLength('title', 255)
+            ->add('title', 'custom', [
+                'rule' => [$this, 'customValidation'],
+                'message' => 'カスタムバリデーションエラー'
+            ]);
+            
+        return $validator;
+    }
+    
+    public function customValidation($value, $context)
+    {
+        // カスタムバリデーションロジック
+        return true;
+    }
+}
+```
+
+### 4. カスタムビヘイビアの作成
+
+```php
+// plugins/MyCustomPlugin/src/Model/Behavior/CustomBehavior.php
+namespace MyCustomPlugin\Model\Behavior;
+
+use Cake\ORM\Behavior;
+use Cake\Event\Event;
+use Cake\ORM\Query;
+
+class CustomBehavior extends Behavior
+{
+    protected $_defaultConfig = [
+        'field' => 'status',
+        'value' => 1
+    ];
+    
+    public function beforeFind(Event $event, Query $query)
+    {
+        $field = $this->getConfig('field');
+        $value = $this->getConfig('value');
+        
+        return $query->where([$field => $value]);
+    }
+    
+    public function beforeSave(Event $event, $entity)
+    {
+        // 保存前の処理
+        if ($entity->isNew()) {
+            $entity->created_by = $this->_table->getCurrentUser('id');
+        }
+        
+        return true;
+    }
+}
+```
+
+### 5. カスタムヘルパーの実装
+
+```php
+// plugins/MyCustomPlugin/src/View/Helper/CustomHelper.php
+namespace MyCustomPlugin\View\Helper;
+
+use Cake\View\Helper;
+
+class CustomHelper extends Helper
+{
+    public $helpers = ['Html', 'Url'];
+}
+```
+
+
+**なかなかお腹いっぱいになってしまいますが、これくらい機能があって条件によっては無料で利用できるのですから使わない手はありません。**
+
+
+
+
+
+---
+
+

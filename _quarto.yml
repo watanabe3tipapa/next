@@ -74,6 +74,5 @@ format:
     monofont: Fira Code
     html-math-method: katex
 
-lang: ja-JP
 
 editor: visual

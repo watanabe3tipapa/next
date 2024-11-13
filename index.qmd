@@ -29,36 +29,47 @@ next.watanabe3ti.comは、次世代のパブリッシングシステム（quarto
 **watanabe3ti.com のサブドメインたち**
 
 -   **メインサイト**
-    -   R、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート
-    -   言語間でのシームレスな連携が可能
+    -   WEBSITE like Sacrada Familia Church
+    -   ポリシー、プレゼンテーション
+    -   認証基盤（Base Repository）
+    -   複数言語のコード・アーカイブ
+    -   各種設定ファイル（yaml、toml 等）の手習場
+    -   愛猫サイトへのゲートウェイ
 -   **TOOLSMITH**
-    -   HTML、PDF、MS Word、プレゼンテーション
-    -   ウェブサイト、ブログ
-    -   インタラクティブなドキュメント
+    -   WEBSITE for self-satisfaction
+    -   道具箱（インタラクティブなコンテンツやツール）
+    -   ドキュメント、プレゼンテーションのWEB納戸
+    -   ウェブサイト有効活用のための試作空間
 -   **WIKI**
+    -   WEBSITE dedicated solely to memorandum
     -   wiki.js および KonaWiki の実装
-    -   忍刀的ツールの格納
-    -   インタラクティブなドキュメントの格納
+    -   忍刀的ツールの実装
+    -   Notion、Obsidianのアーカイブ
+    -   リレーション・メソッドの実装
 -   **BLOGS**
-    -   ココログ、livedoorブログ等のアーカイブ
+    -   WEBSITE like a barn door of contents
+    -   ココログ、livedoorブログ等のコンテンツ・アーカイブ
     -   画像アーカイブ
-    -   インタラクティブなドキュメントの格納
+    -   インタラクティブなドキュメントのアーカイブ
 -   **LOG**
-    -   HTML、CSS
+    -   WEBSITE like an impressive content repository
+    -   おもにHTML、CSSコードのアーカイブ
     -   画像アーカイブ
     -   ユニーク・コードのアーカイブ
 -   **GitHub（mirror）**
-    -   GitHub Repositoryに関連するスタックの格納
+    -   WEBSITE like GitHub and GitLab
+    -   GitHub Repository に連携するスタックの格納
     -   GitHub wiki（約物）のアーカイブ
     -   GitHub Pages のアーカイブ または mirror
 -   **その他**
+    -   WholeSheBang!
     -   現状、NEXTでは紹介できないコンテンツ
-    -   本家ブログ、ブログannex
-    -   OneTime_Site など
+    -   本家ブログ、ブログannex の草稿など
+    -   OneTime_Site のコンテンツなど
 
 ------------------------------------------------------------------------
 
-## 本サイト（next.wtanabe3ti.com）のジェネレーター
+## 本サイト（next.watanabe3ti.com）のジェネレーター：quarto
 
 ### quartoのおもな特徴
 

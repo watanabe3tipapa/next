@@ -2,7 +2,7 @@
 title: "INDEX"
 author: "watanabe3tipapa"
 date: last-modified
-image: "assets/quarto-logo.png"
+image: "assets/ogp_next.jpg"
 description: |
     next.watanabe3ti.comは quartoを利用し構築したサイトです。
     ティザーサイトとしての役割（？）もあると思っています。
@@ -12,9 +12,6 @@ tags: [quarto, cms, git ]
 keywords: ["Quarto", "メタタグ", "フロントマター"]
 abstract: "nextではwatanabe3ti.comに関するコンテンツのつくり方を紹介します。"
 license: "CC BY"
-copyright:
-  holder: "watanabe3tipapa"
-  year: 2024
 og:image: "https://next.watanabe3ti.com/assets/ogp_next.jpg"
 og:url: "https://next.watanabe3ti.com/"
 og:type: "article"

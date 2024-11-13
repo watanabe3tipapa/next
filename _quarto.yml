@@ -4,6 +4,8 @@ project:
 
 website:
   title: next.watanabe3ti.com
+  description: "watanabe3ti.comのつくり方"
+  image: "./assets/ogp_next.jpg"
   navbar:
     aria-label: Main navigation
     background: dark

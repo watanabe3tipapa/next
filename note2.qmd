@@ -7,13 +7,77 @@ description: |
   Note2
 categories: [Quarto, Markdown, Notation ]
 tags: [quarto, cms, git ]
-
 ---
 
 ## Note2とは？
 
+### マークダウン記法におけるタグについて
+
+#### rubyタグ
+
+## <ruby><rb>忍路</rb><rt>おしょろ</rt></ruby>
+
+``` html
+<ruby>
+  <rb>忍路</rb>
+  <rt>おしょろ</rt>
+</ruby>
+```
+
+> qmdファイル中のrubyタグもhtmlへ変換可能です
+
+#### subタグ・supタグ
+
+## H<sub>2</sub>O
+
+``` html
+  H<sub>2</sub>o
+```
+
+## 10<sup>3</sup> = 1000
+
+``` html
+  10<sup>3</sup> = 1000
+```
+
+**detailsタグ**
+
+<details>\##</details>
+
+**progress タグ**
+
+
+<form action="/upload" method="POST">
+<label for="file">ファイルをアップロード:</label> <input type="file" id="file" name="file" /> <br /> <label for="upload-progress">アップロード進捗:</label> <progress id="upload-progress" value="30" max="100">30%</progress> <br /> <input type="submit" value="アップロード" />
+</form>
+
+
+``` html
+<form action="/upload" method="POST">
+    <label for="file">ファイルをアップロード:</label>
+    <input type="file" id="file" name="file" />
+    <br />
+    <label for="upload-progress">アップロード進捗:</label>
+    <progress id="upload-progress" value="30" max="100">30%</progress>
+    <br />
+    <input type="submit" value="アップロード" />
+</form>
+```
+
+**abbrタグ -\> 😢**
+
+\###
+
+\<abbr title="HyperText Markup Language"\>HTML\</abbr\>
+
+\###
+
+``` html       
+  <abbr title="Hyper Text Markup Language">HTML</abbr>
+```
+
+------------------------------------------------------------------------
+
 ![](./assets/UC900.jpg)
 
-
----
-
+------------------------------------------------------------------------

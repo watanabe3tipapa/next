@@ -98,6 +98,27 @@
     "text": "^C"
   },
   {
+    "objectID": "note2.html#忍路おしょろ",
+    "href": "note2.html#忍路おしょろ",
+    "title": "Note2",
+    "section": "忍路おしょろ",
+    "text": "忍路おしょろ\n&lt;ruby&gt;\n  &lt;rb&gt;忍路&lt;/rb&gt;\n  &lt;rt&gt;おしょろ&lt;/rt&gt;\n&lt;/ruby&gt;\n\nqmdファイル中のrubyタグもhtmlへ変換可能です\n\n\nsubタグ・supタグ"
+  },
+  {
+    "objectID": "note2.html#h2o",
+    "href": "note2.html#h2o",
+    "title": "Note2",
+    "section": "H2O",
+    "text": "H2O\n  H&lt;sub&gt;2&lt;/sub&gt;o"
+  },
+  {
+    "objectID": "note2.html#section",
+    "href": "note2.html#section",
+    "title": "Note2",
+    "section": "103 = 1000",
+    "text": "103 = 1000\n  10&lt;sup&gt;3&lt;/sup&gt; = 1000\ndetailsタグ\n\n##\n\nprogress タグ\n\nファイルをアップロード:   アップロード進捗: 30%  \n\n&lt;form action=\"/upload\" method=\"POST\"&gt;\n    &lt;label for=\"file\"&gt;ファイルをアップロード:&lt;/label&gt;\n    &lt;input type=\"file\" id=\"file\" name=\"file\" /&gt;\n    &lt;br /&gt;\n    &lt;label for=\"upload-progress\"&gt;アップロード進捗:&lt;/label&gt;\n    &lt;progress id=\"upload-progress\" value=\"30\" max=\"100\"&gt;30%&lt;/progress&gt;\n    &lt;br /&gt;\n    &lt;input type=\"submit\" value=\"アップロード\" /&gt;\n&lt;/form&gt;\nabbrタグ -&gt; 😢\n###\n&lt;abbr title=“HyperText Markup Language”&gt;HTML&lt;/abbr&gt;\n###\n  &lt;abbr title=\"Hyper Text Markup Language\"&gt;HTML&lt;/abbr&gt;"
+  },
+  {
     "objectID": "toolsmith.html",
     "href": "toolsmith.html",
     "title": "TOOLSMITHについて",
@@ -200,7 +221,7 @@
     "href": "index.html#本サイトnext.wtanabe3ti.comのジェネレーター",
     "title": "INDEX",
     "section": "本サイト（next.wtanabe3ti.com）のジェネレーター",
-    "text": "本サイト（next.wtanabe3ti.com）のジェネレーター\n\nquartoのおもな特徴\n\nマルチ言語対応\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\n豊富な出力形式\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\n拡張性と再現性\n\nPandocをベースとした強力なマークダウン機能\nコードとその実行結果を含むドキュメントの再現性を確保\nカスタマイズ可能なテーマとテンプレート\n\n\n\n\nなぜQuartoを使うのか？\n\n=== ^C"
+    "text": "本サイト（next.wtanabe3ti.com）のジェネレーター\n\nquartoのおもな特徴\n\nマルチ言語対応\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\n豊富な出力形式\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\n拡張性と再現性\n\nPandocをベースとした強力なマークダウン機能\nコードとその実行結果を含むドキュメントの再現性を確保\nカスタマイズ可能なテーマとテンプレート\n\n\n\n\nなぜQuartoを使うのか？\n\n===\n^C"
   },
   {
     "objectID": "siteview.html",

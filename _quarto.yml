@@ -73,3 +73,5 @@ format:
     html-math-method: katex
 
 lang: ja-JP
+
+editor: visual

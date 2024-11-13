@@ -11,6 +11,10 @@ tags: [git, ssh, yml ]
 
 ## GitHub（mirror）とは？
 
+### next.watanabe3ti.com \<-\> [github.Repository](https://github.com/watanabe3tipapa/next) \<-\> [GitHub Pages（NEXT）](https://watanabe3tipapa.github.io/next/)  
+
+### and  [Netlify（NEXT）](https://next-watanabe3ti.netlify.app)
+
 ![](./assets/UC900.jpg)
 
 ------------------------------------------------------------------------

@@ -13,7 +13,7 @@ tags: [wiki, cms, git ]
 
 ## wiki.watanabe3ti.comとは？
 
-[wiki.watanabe3ti.com](https://wiki.watanbe3ti.com/)は、ひたすらWikiです。 ただし、自分用。
+[`wiki.watanabe3ti.com`](https://wiki.watanabe3ti.com/)は、ひたすらWikiです。 ただし、自分用。
 
 ## wiki.watanabe3ti.com 開設の動機
 

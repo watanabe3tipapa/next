@@ -56,10 +56,10 @@ quarto render
 
 <br>
 
-**1日1読** [TIPS](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
+**一日一読** [TIPS](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
 
 **興味のある方は是非お試しください**
 
 ------------------------------------------------------------------------
 
-\^C
+===

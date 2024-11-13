@@ -7,12 +7,10 @@ description: |
   GitHubには ...
 categories: [Git, GitHub, CI, API ]
 tags: [git, ssh, yml ]
-
 ---
 
 ## GitHub（mirror）とは？
 
 ![](./assets/UC900.jpg)
 
-
----
+------------------------------------------------------------------------

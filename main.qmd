@@ -1,12 +1,12 @@
 ---
-title: "サイトについて"
+title: "watanabe3ti.com について"
 author: "watanabe3tipapa"
-date: last-modified
+date: "2024-11-09"
 image: "./assets/ogp_next.jpg"
 description: |
-  next.watanabe3ti.comは quartoを利用し構築したサイトです。
-  ティザーサイトとしての役割（？）もあると思っています。
-  コードと文章を融合させた魅力的なドキュメントは良いものです。
+  watanabe3ti.comは わたしが使用しているドメインです。
+  ただし、商用ではありません。
+  わたしにとってwebの実験室であり工作室でもあります。
 categories: [Quarto, Markdown, Notation ]
 tags: [grav, cms, git ]
 ---

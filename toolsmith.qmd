@@ -1,7 +1,7 @@
 ---
 title: "TOOLSMITHについて"
 author: "watanabe3tipapa"
-date: last-modified
+date: "2024-11-09"
 image: "./assets/ogp_next.jpg"
 description: |
   toolsmith.watanabe3ti.comは baserCMSを利用し構築したサイトです。

@@ -2,7 +2,7 @@
 title: "About"
 author: "watanabe3tipapa"
 date: last-modified
-image: "assets/quarto-logo.png"
+image: "./assets/ogp_next.jpg"
 description: |
   コードと文章を融合させた魅力的なドキュメントとは ...
 categories: [Quarto, Markdown, Notation ]

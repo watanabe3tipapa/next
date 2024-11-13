@@ -2,7 +2,7 @@
 title: "Note3"
 author: "watanabe3tipapa"
 date: last-modified
-image: "assets/quarto-logo.png"
+image: "./assets/ogp_next.jpg"
 description: |
   Note3
 categories: [Quarto, Markdown, Notation ]

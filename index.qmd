@@ -2,7 +2,7 @@
 title: "INDEX"
 author: "watanabe3tipapa"
 date: last-modified
-image: "assets/ogp_next.jpg"
+image: "./assets/ogp_next.jpg"
 description: |
     next.watanabe3ti.comは quartoを利用し構築したサイトです。
     ティザーサイトとしての役割（？）もあると思っています。

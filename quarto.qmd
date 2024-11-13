@@ -2,13 +2,12 @@
 title: "Quartoで始める次世代のドキュメント作成"
 author: "watanabe3tipapa"
 date: last-modified
-image: "assets/quarto-logo.png"
+image: "./assets/ogp_next.jpg"
 description: |
   Quartoは、次世代の科学技術計算とテクニカルドキュメント作成のためのオープンソースシステムです。
   コードと文章を融合させた魅力的なドキュメントを作成できます。
 categories: [Quarto, 技術文書, データサイエンス]
 tags: [quarto ,cms ,git ]
-
 ---
 
 ![](./assets/quarto-logo.png)
@@ -31,40 +30,36 @@ tags: [quarto ,cms ,git ]
 
 **macOSの場合です**
 
-1. Quartoのインストール
+1.  Quartoのインストール
 
-```bash
+``` bash
 brew install quarto
 ```
 
-Quartoのウェブサイトからダウンロード
-https://quarto.org/docs/get-started/
+Quartoのウェブサイトからダウンロード https://quarto.org/docs/get-started/
 
-2. 新規プロジェクトの作成
+2.  新規プロジェクトの作成
 
-```bash
+``` bash
 quarto create-project myproject --type website
 ```
 
-3. ドキュメントはマークダウン（qmd形式）で記述します
+3.  ドキュメントはマークダウン（qmd形式）で記述します
 
 [別途参照](https://app.gitbook.com/o/otUZXmogvWp2UEVLTZxq/s/kw1bgxylppcTuU0dGm1k/quarto)
 
+4.  ドキュメントのレンダリング
 
-4. ドキュメントのレンダリング
-```bash
+``` bash
 quarto render
 ```
+
 <br>
 
-
-
-**1日1読**
-[TIPS](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
-
+**1日1読** [TIPS](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
 
 **興味のある方は是非お試しください**
 
+------------------------------------------------------------------------
 
----
-^C
+\^C

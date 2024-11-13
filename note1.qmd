@@ -2,38 +2,31 @@
 title: "Note1"
 author: "watanabe3tipapa"
 date: last-modified
-image: "assets/quarto-logo.png"
+image: "./assets/ogp_next.jpg"
 description: |
   Note1ではサイトやWEBの作成に関するTipsなどを書き留めます
 categories: [Quarto, Markdown, Notation ]
 tags: [quarto, cms, git ]
-
 ---
+
 # TIPS
 
 ## Tools for this and that
 
 ### Typst 関連
-[Typst](https://typst.app)
-[お気に入り](https://github.com/kazuyanagimoto/zenn-contents/blob/main/articles/quarto-typst-cv.md)
 
+[Typst](https://typst.app) [お気に入り](https://github.com/kazuyanagimoto/zenn-contents/blob/main/articles/quarto-typst-cv.md)
 
 ### WEB AWESOME / Font
-[Font Awesome](https://fontawesome.com)
-[お気に入り](https://fontawesome.com/search?o=r&m=free)
 
+[Font Awesome](https://fontawesome.com) [お気に入り](https://fontawesome.com/search?o=r&m=free)
 
----
-
-
-
-
-
+------------------------------------------------------------------------
 
 ## Note1（以下）
 
 ![](./assets/UC900.jpg)
 
+------------------------------------------------------------------------
 
----
-^C
+\^C

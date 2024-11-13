@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "BLOGSについて",
+    "section": "",
+    "text": "blogs.watanabe3ti.comは、BLOGアーカイブです。 本BLOG（ブクログ by Nifty）やサービス終了したワークフレームからコンテンツを抽出しWordPress用にコンバートしました。 常用DBの仕様変更の影響により残念ながら現在は運用を中断しています。\n\n\n\nブクログ\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\nSites（Google）\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\nblogs（KDDI）\n\nPandocをベースとした強力なマークダウン機能\nコードとその実行結果を含むドキュメントの再現性を確保\nカスタマイズ可能なテーマとテンプレート"
+  },
+  {
+    "objectID": "blogs.html#blogs.watanabe3ti.comとは",
+    "href": "blogs.html#blogs.watanabe3ti.comとは",
+    "title": "BLOGSについて",
+    "section": "",
+    "text": "blogs.watanabe3ti.comは、BLOGアーカイブです。 本BLOG（ブクログ by Nifty）やサービス終了したワークフレームからコンテンツを抽出しWordPress用にコンバートしました。 常用DBの仕様変更の影響により残念ながら現在は運用を中断しています。\n\n\n\nブクログ\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\nSites（Google）\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\nblogs（KDDI）\n\nPandocをベースとした強力なマークダウン機能\nコードとその実行結果を含むドキュメントの再現性を確保\nカスタマイズ可能なテーマとテンプレート"
+  },
+  {
+    "objectID": "blogs.html#なぜwordpressを使うのか",
+    "href": "blogs.html#なぜwordpressを使うのか",
+    "title": "BLOGSについて",
+    "section": "なぜWordPressを使うのか？",
+    "text": "なぜWordPressを使うのか？\nWordPressを使ってブログをアーカイブする理由は多岐にわたります。 以下にその主な理由を挙げます。\n\nアーカイブの目的\n\nコンテンツの整理: アーカイブ機能を利用することで、古い投稿を整理し、サイトをすっきりと保つことができます。これにより、訪問者が必要な情報を見つけやすくなります。\nユーザーエンゲージメントの向上: アーカイブページは、特定のカテゴリーやタグに基づいて投稿をまとめて表示するため、ユーザーが興味のあるコンテンツにアクセスしやすくなります。これにより、サイトの滞在時間が延び、リピート訪問者が増える可能性があります。\nSEOの向上: アーカイブを適切に設定することで、検索エンジンがサイトの構造を理解しやすくなり、結果としてSEO効果が期待できます。特定のテーマに関連する投稿をまとめることで、検索エンジンからのトラフィックを増やすことができます。\n\n\n\nアーカイブの方法\n\nプラグインの利用: WordPressでは、特定のプラグインを使用して投稿をアーカイブすることができます。例えば、LH Archived Post Statusプラグインを使うことで、投稿を非公開にすることなくアーカイブすることが可能です。\nカスタムアーカイブページの作成: 固定ページやカスタム投稿タイプを利用して、独自のアーカイブページを作成することもできます。これにより、特定の条件に基づいた投稿の一覧を表示することができます。\n\n\n\n結論\nWordPressを使ってブログをアーカイブすることは、コンテンツの整理、ユーザーエンゲージメントの向上、SEOの強化など、多くの利点があります。これにより、訪問者にとって使いやすいサイトを構築し、長期的なトラフィックの増加を図ることができます。\n\n\n\n\n\n\n\n追記、後日予定"
+  },
+  {
+    "objectID": "log.html",
+    "href": "log.html",
+    "title": "LOGについて",
+    "section": "",
+    "text": "log.watanabe3ti.comは、インプレッション・アーカイブです。 ただし、自分用。"
+  },
+  {
+    "objectID": "log.html#log.watanabe3ti.comとは",
+    "href": "log.html#log.watanabe3ti.comとは",
+    "title": "LOGについて",
+    "section": "",
+    "text": "log.watanabe3ti.comは、インプレッション・アーカイブです。 ただし、自分用。"
+  },
+  {
+    "objectID": "log.html#log.watanabe3ti.com-開設の動機",
+    "href": "log.html#log.watanabe3ti.com-開設の動機",
+    "title": "LOGについて",
+    "section": "log.watanabe3ti.com 開設の動機",
+    "text": "log.watanabe3ti.com 開設の動機"
+  },
+  {
+    "objectID": "quarto.html#なぜquartoを使うのか",
+    "href": "quarto.html#なぜquartoを使うのか",
+    "title": "Quartoで始める次世代のドキュメント作成",
+    "section": "なぜQuartoを使うのか？",
+    "text": "なぜQuartoを使うのか？\n\n1. 統合された開発環境\nコードの作成から文書化、公開までをシームレスに行えます。RStudioやVS Codeなどの主要なIDEで快適に作業できます。\n\n\n2. 再現可能な研究・開発\nコードとドキュメントを一体化することで、研究や開発プロセスの再現性を高めることができます。\n\n\n3. 柔軟な出力形式\n同じソースから様々な形式のドキュメントを生成できるため、異なる目的や対象に合わせた成果物を効率的に作成できます。"
+  },
+  {
+    "objectID": "quarto.html#始め方",
+    "href": "quarto.html#始め方",
+    "title": "Quartoで始める次世代のドキュメント作成",
+    "section": "始め方",
+    "text": "始め方\nmacOSの場合です\n\nQuartoのインストール\n\nbrew install quarto\nQuartoのウェブサイトからダウンロード https://quarto.org/docs/get-started/\n\n新規プロジェクトの作成\n\nquarto create-project myproject --type website\n\nドキュメントはマークダウン（qmd形式）で記述します\n\n別途参照\n\nドキュメントのレンダリング\n\nquarto render\n\n1日1読 TIPS\n興味のある方は是非お試しください\n\n^C"
+  },
+  {
+    "objectID": "wiki.html",
+    "href": "wiki.html",
+    "title": "WIKIについて",
+    "section": "",
+    "text": "wiki.watanabe3ti.comは、ひたすらWikiです。 ただし、自分用。"
+  },
+  {
+    "objectID": "wiki.html#wiki.watanabe3ti.comとは",
+    "href": "wiki.html#wiki.watanabe3ti.comとは",
+    "title": "WIKIについて",
+    "section": "",
+    "text": "wiki.watanabe3ti.comは、ひたすらWikiです。 ただし、自分用。"
+  },
+  {
+    "objectID": "wiki.html#wiki.watanabe3ti.com-開設の動機",
+    "href": "wiki.html#wiki.watanabe3ti.com-開設の動機",
+    "title": "WIKIについて",
+    "section": "wiki.watanabe3ti.com 開設の動機",
+    "text": "wiki.watanabe3ti.com 開設の動機\n\n\n\n\n\n\n\n\n追記、後日予定"
+  },
+  {
+    "objectID": "note1.html",
+    "href": "note1.html",
+    "title": "Note1",
+    "section": "",
+    "text": "Typst お気に入り\n\n\n\nFont Awesome お気に入り\n\n\n\n\n\n\n\n^C"
+  },
+  {
+    "objectID": "note1.html#tools-for-this-and-that",
+    "href": "note1.html#tools-for-this-and-that",
+    "title": "Note1",
+    "section": "",
+    "text": "Typst お気に入り\n\n\n\nFont Awesome お気に入り"
+  },
+  {
+    "objectID": "note1.html#note1以下",
+    "href": "note1.html#note1以下",
+    "title": "Note1",
+    "section": "",
+    "text": "^C"
+  },
+  {
+    "objectID": "note2.html#忍路おしょろ",
+    "href": "note2.html#忍路おしょろ",
+    "title": "Note2",
+    "section": "忍路おしょろ",
+    "text": "忍路おしょろ\n&lt;ruby&gt;\n  &lt;rb&gt;忍路&lt;/rb&gt;\n  &lt;rt&gt;おしょろ&lt;/rt&gt;\n&lt;/ruby&gt;\n\nqmdファイル中のrubyタグもhtmlへ変換可能です\n\n\nsubタグ・supタグ"
+  },
+  {
+    "objectID": "note2.html#h2o",
+    "href": "note2.html#h2o",
+    "title": "Note2",
+    "section": "H2O",
+    "text": "H2O\n  H&lt;sub&gt;2&lt;/sub&gt;o"
+  },
+  {
+    "objectID": "note2.html#section",
+    "href": "note2.html#section",
+    "title": "Note2",
+    "section": "103 = 1000",
+    "text": "103 = 1000\n  10&lt;sup&gt;3&lt;/sup&gt; = 1000\ndetailsタグ\n\n##\n\nprogress タグ\n\nファイルをアップロード:   アップロード進捗: 30%  \n\n&lt;form action=\"/upload\" method=\"POST\"&gt;\n    &lt;label for=\"file\"&gt;ファイルをアップロード:&lt;/label&gt;\n    &lt;input type=\"file\" id=\"file\" name=\"file\" /&gt;\n    &lt;br /&gt;\n    &lt;label for=\"upload-progress\"&gt;アップロード進捗:&lt;/label&gt;\n    &lt;progress id=\"upload-progress\" value=\"30\" max=\"100\"&gt;30%&lt;/progress&gt;\n    &lt;br /&gt;\n    &lt;input type=\"submit\" value=\"アップロード\" /&gt;\n&lt;/form&gt;\nabbrタグ -&gt; 😢\n###\n&lt;abbr title=“HyperText Markup Language”&gt;HTML&lt;/abbr&gt;\n###\n  &lt;abbr title=\"Hyper Text Markup Language\"&gt;HTML&lt;/abbr&gt;"
+  },
+  {
+    "objectID": "toolsmith.html",
+    "href": "toolsmith.html",
+    "title": "TOOLSMITHについて",
+    "section": "",
+    "text": "toolsmith.watanabe3ti.comは、BaserCMSで構築しています。 単一のフォーマットから、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができます。"
+  },
+  {
+    "objectID": "toolsmith.html#toolsmith.watanabe3ti.comとは",
+    "href": "toolsmith.html#toolsmith.watanabe3ti.comとは",
+    "title": "TOOLSMITHについて",
+    "section": "",
+    "text": "toolsmith.watanabe3ti.comは、BaserCMSで構築しています。 単一のフォーマットから、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができます。"
+  },
+  {
+    "objectID": "toolsmith.html#basercmsについて",
+    "href": "toolsmith.html#basercmsについて",
+    "title": "TOOLSMITHについて",
+    "section": "baserCMSについて",
+    "text": "baserCMSについて\n\nbaserCMSとは\nbaserCMSは、PHPベースのオープンソースCMSプラットフォームで、以下のような特徴があります：\n\n柔軟なカスタマイズ性\n\nテーマシステムによる自由なデザイン変更\nプラグインによる機能拡張\nPHPによる開発のしやすさ\n\n使いやすい管理画面\n\n直感的なユーザーイターフェース\nドラッグ&ドロップによるコンテンツ管理\nSEOに配慮した設定オプション\n\n高い拡張性\n\nカスタムコンテンツタイプの作成\nAPIによる外部システムとの連携\nマルチサイト機能\n\n\n\n\nなぜbaserCMSを選んだのか\n\n日本製CMSのメリット\n\n日本語環境の完全サポート\n国内での充実したコミュニティ\n日本のウェブ慣習に適合\n\n開発のしやすさ\n\nPHPベースの親しみやすい環境\nCakePHPフレームワークの採用\n豊富なドキュメントとサポート\n\nセキュリティと安定性\n\n定期的なアップデート\nセキュリティ対策の充実\n実績のある運用実績"
+  },
+  {
+    "objectID": "toolsmith.html#basercmsの追加特徴",
+    "href": "toolsmith.html#basercmsの追加特徴",
+    "title": "TOOLSMITHについて",
+    "section": "baserCMSの追加特徴",
+    "text": "baserCMSの追加特徴\n\n1. コンテンツ管理の高度な機能\n\nバージョン管理システム\n\nコンテンツの変更履歴管理\n複数バージョンの保存と復元\nチーム作業での変更追跡\n\n高度なメディア管理\n\n画像の自動リサイズ\nWebP形式の自動変換対応\nメディアライブラリの階層管理\n\n\n\n\n2. マルチデバイス対応\n\nレスポンシブデザイン対応\n\nモバイルファースト設計\nAMP対応可能\nプレビュー機能でのデバイス別確認\n\n\n\n\n3. パフォーマンス最適化\n\nキャッシュシステム\n\nページキャッシュ機能\nデータベースクエリ最適化\nCDN連携サポート\n\n\n\n\n4. 開発者向け機能\n\nAPIサポート\n\nRESTful API対応\nGraphQL対応（プラグイン利用）\nWebhookによる外部連携\n\n\n\n\n5. セキュリティ機能\n\n高度な認証システム\n\n二要素認証対応\nIPアドレス制限\nログイン試行制限\n\nデータ保護\n\nバックアップ機能\nデータの自動暗号化\nSSLサポート"
+  },
+  {
+    "objectID": "toolsmith.html#なぜbasercmsを使うのか技術的観点",
+    "href": "toolsmith.html#なぜbasercmsを使うのか技術的観点",
+    "title": "TOOLSMITHについて",
+    "section": "なぜbaserCMSを使うのか？(技術的観点)",
+    "text": "なぜbaserCMSを使うのか？(技術的観点)\n\n1. 効率的なコンテンツ管理\n\n直感的な管理画面\n\nドラッグ&ドロップによる簡単な操作\nWYSIWYGエディタによる編集\nメディアライブラリの統合管理\n\n\n\n\n2. 開発効率の向上\n\nモダンな開発環境\n\nCakePHPフレームワークベース\nコンポーネント指向の設計\n充実した開発者ドキュメント\n\n\n\n\n3. ビジネスニーズへの適応\n\n拡張性と柔軟性\n\nカスタムプラグインの開発\nテーマによるデザインカスタマイズ\nマルチサイト運用のサポート\n\n\n\n\n4. 運用とメンテナンス\n\n安定した運用基盤\n\n定期的なセキュリティアップデート\nアクティブなコミュニティサポート\n豊富な実績と導入事例"
+  },
+  {
+    "objectID": "toolsmith.html#始め方",
+    "href": "toolsmith.html#始め方",
+    "title": "TOOLSMITHについて",
+    "section": "始め方",
+    "text": "始め方\n\nbaserCMSのインストール\n\n# Composerを使用してインストール\ncomposer create-project baserproject/basercms\n\n# または、GitHubからクローン\ngit clone https://github.com/baserproject/basercms.git\ncd basercms\ncomposer install\n\nデータベースの設定\n\n# 設定ファイルの作成\ncp config/.env.example config/.env\ncp config/app_local.example.php config/app_local.php\n\n# データベース接続情報を編集\nnano config/.env\n\nインストールスクリプトの実行\n\n# インストールスクリプトを実行\nbin/cake basercms install\n\n開発サーバーの起動\n\nbin/cake server\nこれで http://localhost:8765 にアクセスして管理画面を確認できます。\n\n初期設定のポイント\n\n管理者アカウントの作成\nサイト基本設定の構成\nテーマの選択とカスタマイズ\n必要なプラグインのインストール"
+  },
+  {
+    "objectID": "toolsmith.html#basercmsの技術的特徴",
+    "href": "toolsmith.html#basercmsの技術的特徴",
+    "title": "TOOLSMITHについて",
+    "section": "baserCMSの技術的特徴",
+    "text": "baserCMSの技術的特徴\n\n1. アーキテクチャ設計\n\nMVCアーキテクチャ\n\nCakePHP 4.x ベースの堅牢な設計\nプラグインアーキテクチャによる機能拡張\nイベント駆動型のシステム設計\n\nモジュール構成\n// プラグイン構造の例\nplugins/\n  ├── MyPlugin/\n  │   ├── config/\n  │   ├── src/\n  │   │   ├── Controller/\n  │   │   ├── Model/\n  │   │   └── View/\n  │   └── templates/\n\n\n\n2. データベース設計\n\nORMの活用\n\nエンティティとテーブルの明確な分離\nリレーションの柔軟な定義\nマイグレーションによるバージョン管理\n\n\n// エンティティの例\nclass Content extends Entity\n{\n    protected $_accessible = [\n        '*' =&gt; true,\n        'id' =&gt; false\n    ];\n    \n    protected function _getFullTitle()\n    {\n        return $this-&gt;title . ' (' . $this-&gt;id . ')';\n    }\n}\n\n\n3. APIとインテグレーション\n\nRESTful API実装\n// APIコントローラーの例\nclass ApiController extends AppController\n{\n    public function initialize(): void\n    {\n        parent::initialize();\n        $this-&gt;loadComponent('RequestHandler');\n    }\n}\n\n\n\n4. キャッシュシステム\n\n階層的キャッシュ\n\nビューキャッシュ\nクエリキャッシュ\nオブジェクトキャッシュ\n\n\n// キャッシュ設定例\nConfigure::write('Cache._cake_model_', [\n    'className' =&gt; 'File',\n    'prefix' =&gt; 'myapp_cake_model_',\n    'path' =&gt; CACHE . 'models/',\n    'serialize' =&gt; true,\n    'duration' =&gt; '+1 years'\n]);\n\n\n5. セキュリティ実装\n\nXSS対策\n// テンプレートでのエスケープ処理\n&lt;?= h($content-&gt;title) ?&gt;\nCSRF保護\n// フォームでのCSRFトークン\n&lt;?= $this-&gt;Form-&gt;create($entity) ?&gt;\n// 自動的にCSRFトークンが追加される\n\n\n\n6. カスタムフィールドタイプ\n// カスタムフィールドの実装例\nclass CustomField extends BcCustomField\n{\n    public function initialize(array $config): void\n    {\n        parent::initialize($config);\n        \n        $this-&gt;addFieldType('custom_type', [\n            'template' =&gt; 'custom_field',\n            'validator' =&gt; 'customValidation'\n        ]);\n    }\n}\n\n\n7. イベントシステム\n// イベントリスナーの例\nclass CustomEventListener implements EventListenerInterface\n{\n    public function implementedEvents(): array\n    {\n        return [\n            'Model.beforeSave' =&gt; 'beforeSave',\n            'Controller.beforeRender' =&gt; 'beforeRender'\n        ];\n    }\n    \n    public function beforeSave(Event $event, Entity $entity)\n    {\n        // 保存前の処理\n    }\n}"
+  },
+  {
+    "objectID": "toolsmith.html#システムの拡張性と柔軟性",
+    "href": "toolsmith.html#システムの拡張性と柔軟性",
+    "title": "TOOLSMITHについて",
+    "section": "システムの拡張性と柔軟性",
+    "text": "システムの拡張性と柔軟性\n\n1. カスタムプラグイン開発\n// plugins/MyCustomPlugin/src/Plugin.php\nnamespace MyCustomPlugin;\n\nuse BaserCore\\BcPlugin;\nuse Cake\\Core\\ContainerInterface;\n\nclass Plugin extends BcPlugin\n{\n    public function services(ContainerInterface $container): void\n    {\n        // サービス登録\n        $container-&gt;add('MyCustomService', function () {\n            return new MyCustomService();\n        });\n    }\n\n    public function initialize(): void\n    {\n        parent::initialize();\n        \n        // カスタムイベントの登録\n        $this-&gt;addEvent('MyCustom.afterProcess', [\n            'callable' =&gt; ['MyCustomEventListener', 'afterProcess']\n        ]);\n    }\n}\n\n\n2. カスタムコントローラーの実装\n// plugins/MyCustomPlugin/src/Controller/CustomController.php\nnamespace MyCustomPlugin\\Controller;\n\nuse BaserCore\\Controller\\Admin\\BcAdminAppController;\n\nclass CustomController extends BcAdminAppController\n{\n    public function initialize(): void\n    {\n        parent::initialize();\n        \n        // コンポーネントの読み込み\n        $this-&gt;loadComponent('Paginator');\n        $this-&gt;loadComponent('Security');\n        \n        // 認証の設定\n        $this-&gt;Authentication-&gt;allowUnauthenticated(['index', 'view']);\n    }\n    \n    public function customAction()\n    {\n        // カスタム処理\n        $result = $this-&gt;CustomModel-&gt;customProcess();\n        \n        // APIレスポンス\n        $this-&gt;set(compact('result'));\n        $this-&gt;viewBuilder()-&gt;setOption('serialize', ['result']);\n    }\n}\n\n\n3. カスタムモデルとバリデーション\n// plugins/MyCustomPlugin/src/Model/Table/CustomTable.php\nnamespace MyCustomPlugin\\Model\\Table;\n\nuse Cake\\ORM\\Table;\nuse Cake\\Validation\\Validator;\n\nclass CustomTable extends Table\n{\n    public function initialize(array $config): void\n    {\n        parent::initialize($config);\n        \n        // ビヘイビアの追加\n        $this-&gt;addBehavior('Timestamp');\n        $this-&gt;addBehavior('BaserCore.BcUpload', [\n            'fields' =&gt; ['image' =&gt; [\n                'type' =&gt; 'image',\n                'thumbnailSizes' =&gt; ['small' =&gt; '100x100']\n            ]]\n        ]);\n        \n        // アソシエーションの設定\n        $this-&gt;belongsTo('Categories');\n        $this-&gt;hasMany('Comments');\n    }\n    \n    public function validationDefault(Validator $validator): Validator\n    {\n        $validator\n            -&gt;requirePresence('title')\n            -&gt;notEmptyString('title')\n            -&gt;maxLength('title', 255)\n            -&gt;add('title', 'custom', [\n                'rule' =&gt; [$this, 'customValidation'],\n                'message' =&gt; 'カスタムバリデーションエラー'\n            ]);\n            \n        return $validator;\n    }\n    \n    public function customValidation($value, $context)\n    {\n        // カスタムバリデーションロジック\n        return true;\n    }\n}\n\n\n4. カスタムビヘイビアの作成\n// plugins/MyCustomPlugin/src/Model/Behavior/CustomBehavior.php\nnamespace MyCustomPlugin\\Model\\Behavior;\n\nuse Cake\\ORM\\Behavior;\nuse Cake\\Event\\Event;\nuse Cake\\ORM\\Query;\n\nclass CustomBehavior extends Behavior\n{\n    protected $_defaultConfig = [\n        'field' =&gt; 'status',\n        'value' =&gt; 1\n    ];\n    \n    public function beforeFind(Event $event, Query $query)\n    {\n        $field = $this-&gt;getConfig('field');\n        $value = $this-&gt;getConfig('value');\n        \n        return $query-&gt;where([$field =&gt; $value]);\n    }\n    \n    public function beforeSave(Event $event, $entity)\n    {\n        // 保存前の処理\n        if ($entity-&gt;isNew()) {\n            $entity-&gt;created_by = $this-&gt;_table-&gt;getCurrentUser('id');\n        }\n        \n        return true;\n    }\n}\n\n\n5. カスタムヘルパーの実装\n// plugins/MyCustomPlugin/src/View/Helper/CustomHelper.php\nnamespace MyCustomPlugin\\View\\Helper;\n\nuse Cake\\View\\Helper;\n\nclass CustomHelper extends Helper\n{\n    public $helpers = ['Html', 'Url'];\n}\nなかなかお腹いっぱいになってしまいますが、これくらい機能があって条件によっては無料で利用できるのですから使わない手はありません。"
+  },
+  {
+    "objectID": "main.html",
+    "href": "main.html",
+    "title": "サイトについて",
+    "section": "",
+    "text": "watanabe3ti.comは、grav & 手仕事 で構築しています。\n\n\nGravは、モダンでフラットファイルベースのCMSです。データベースを必要とせず、Markdownファイルで コンテンツを管理できる軽量なシステムです。\nおもな特徴として：\n\nシンプルな構造\n\nデータベース不要のフラットファイルシステム\nMarkdownによる直感的なコンテンツ作成\n\n高いカスタマイズ性\n\n豊富なプラグインとテーマ\nTwig テンプレートエンジンによる柔軟なデザイン\n\n高速なパフォーマンス\n\nキャッシュシステムによる高速な表示\n最小限のサーバーリソース要求"
+  },
+  {
+    "objectID": "main.html#watanabe3ti.comとは",
+    "href": "main.html#watanabe3ti.comとは",
+    "title": "サイトについて",
+    "section": "",
+    "text": "watanabe3ti.comは、grav & 手仕事 で構築しています。\n\n\nGravは、モダンでフラットファイルベースのCMSです。データベースを必要とせず、Markdownファイルで コンテンツを管理できる軽量なシステムです。\nおもな特徴として：\n\nシンプルな構造\n\nデータベース不要のフラットファイルシステム\nMarkdownによる直感的なコンテンツ作成\n\n高いカスタマイズ性\n\n豊富なプラグインとテーマ\nTwig テンプレートエンジンによる柔軟なデザイン\n\n高速なパフォーマンス\n\nキャッシュシステムによる高速な表示\n最小限のサーバーリソース要求"
+  },
+  {
+    "objectID": "main.html#なぜgravを使うのか",
+    "href": "main.html#なぜgravを使うのか",
+    "title": "サイトについて",
+    "section": "なぜGravを使うのか？",
+    "text": "なぜGravを使うのか？\n\n1. シンプルさと軽量性\n\nデータベース不要で、サーバー要件が最小限\nMarkdownによる直感的なコンテンツ作成\n設定やメンテナンスが容易\n\n\n\n2. 開発者フレンドリー\n\nGit連携による効率的なバージョン管理\nモダンなテクノロジースタック（PHP 7+, Twig, YAML）\n充実したドキュメントとアクティブなコミュニティ\n\n\n\n3. 高いパフォーマンス\n\nフラットファイル構造による高速な応答\n効率的なキャッシュシステム\n低いサーバーリソース消費\n\n\n\n4. 柔軟なカスタマイズ\n\n豊富なプラグインエコシステム\nテーマの自由なカスタマイズ\nAPIによる拡張性"
+  },
+  {
+    "objectID": "main.html#始め方",
+    "href": "main.html#始め方",
+    "title": "サイトについて",
+    "section": "始め方",
+    "text": "始め方\n\nGravのインストール\n\n\n必要要件\n\nPHP 7.3.6 以上\nPHP mbstring エクステンション\nPHP curl エクステンション\nPHP gd エクステンション\nPHP zip エクステンション\n\n\n\nインストール方法\n\n1. 直接ダウンロード\n\nGrav公式サイトから最新版をダウンロード\nZIPファイルを解凍してWebサーバーのルートディレクトリに配置\nファイルのパーミッションを設定:\n\nchmod 755 /path/to/grav-installation\nchmod 755 /path/to/grav-installation/bin\nchmod 755 /path/to/grav-installation/cache\nchmod 755 /path/to/grav-installation/logs\nchmod 755 /path/to/grav-installation/images\nchmod 755 /path/to/grav-installation/user/data\n\n\n2. Composerを使用したインストール\ncomposer create-project getgrav/grav ~/webroot/grav\n\n\n3. Git経由でのインストール\ngit clone -b master https://github.com/getgrav/grav.git\ncd grav\ncomposer install\n\n\n\nAdmin Pluginのインストール（推奨）\ncd /path/to/grav-installation\nbin/gpm install admin\n\n\nセキュリティ設定\n\nuser/config/security.yaml を作成\n以下の基本設定を追加：\n\nsecurity:\nsalt: 'your-random-string'\n\n\n初期設定の確認\n\nブラウザで http://your-domain.com/admin にアクセス\n初期セットアップウィザードに従って管理者アカウントを作成\n基本設定を確認・カスタマイズ\n\nこのインストールガイドでは： - 必要なシステム要件 - 3つの異なるインストール方法 - Admin Pluginのインストール手順 - 基本的なセキュリティ設定 - 初期セットアップの手順\nを説明しました。  環境に応じて最適なインストール方法を選択できます。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "INDEX",
+    "section": "",
+    "text": "next.watanabe3ti.comは、次世代のパブリッシングシステム（quarto）で構築しています。 TRY＆ERRORで運用していきます。 単一のフォーマットから、論文、プレゼンテーション、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができますので、この機能を大いに活用していきたいと考えています。\n\n\nwatanabe3ti.com のサブドメインたち\n\nメインサイト\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\nTOOLSMITH\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\nWIKI\n\nwiki.js および KonaWiki の実装\n忍刀的ツールの格納\nインタラクティブなドキュメントの格納\n\nBLOGS\n\nココログ、livedoorブログ等のアーカイブ\n画像アーカイブ\nインタラクティブなドキュメントの格納\n\nLOG\n\nHTML、CSS\n画像アーカイブ\nユニーク・コードのアーカイブ\n\nGitHub（mirror）\n\nGitHub Repositoryに関連するスタックの格納\nGitHub wiki（約物）のアーカイブ\nGitHub Pages のアーカイブ または mirror\n\nその他\n\n現状、NEXTでは紹介できないコンテンツ\n本家ブログ、ブログannex\nOneTime_Site など"
+  },
+  {
+    "objectID": "index.html#next.watanabe3ti.comとは",
+    "href": "index.html#next.watanabe3ti.comとは",
+    "title": "INDEX",
+    "section": "",
+    "text": "next.watanabe3ti.comは、次世代のパブリッシングシステム（quarto）で構築しています。 TRY＆ERRORで運用していきます。 単一のフォーマットから、論文、プレゼンテーション、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができますので、この機能を大いに活用していきたいと考えています。\n\n\nwatanabe3ti.com のサブドメインたち\n\nメインサイト\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\nTOOLSMITH\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\nWIKI\n\nwiki.js および KonaWiki の実装\n忍刀的ツールの格納\nインタラクティブなドキュメントの格納\n\nBLOGS\n\nココログ、livedoorブログ等のアーカイブ\n画像アーカイブ\nインタラクティブなドキュメントの格納\n\nLOG\n\nHTML、CSS\n画像アーカイブ\nユニーク・コードのアーカイブ\n\nGitHub（mirror）\n\nGitHub Repositoryに関連するスタックの格納\nGitHub wiki（約物）のアーカイブ\nGitHub Pages のアーカイブ または mirror\n\nその他\n\n現状、NEXTでは紹介できないコンテンツ\n本家ブログ、ブログannex\nOneTime_Site など"
+  },
+  {
+    "objectID": "index.html#本サイトnext.wtanabe3ti.comのジェネレーター",
+    "href": "index.html#本サイトnext.wtanabe3ti.comのジェネレーター",
+    "title": "INDEX",
+    "section": "本サイト（next.wtanabe3ti.com）のジェネレーター",
+    "text": "本サイト（next.wtanabe3ti.com）のジェネレーター\n\nquartoのおもな特徴\n\nマルチ言語対応\n\nR、Python、Julia、Observable JSなど、複数の言語でのコード実行をサポート\n言語間でのシームレスな連携が可能\n\n豊富な出力形式\n\nHTML、PDF、MS Word、プレゼンテーション\nウェブサイト、ブログ\nインタラクティブなドキュメント\n\n拡張性と再現性\n\nPandocをベースとした強力なマークダウン機能\nコードとその実行結果を含むドキュメントの再現性を確保\nカスタマイズ可能なテーマとテンプレート\n\n\n\n\nなぜQuartoを使うのか？\n\n===\n^C"
+  },
+  {
+    "objectID": "siteview.html",
+    "href": "siteview.html",
+    "title": "Site view",
+    "section": "",
+    "text": "About this Site view\n###（初期設定時のファイル配置）\n├── _quarto.yml\n├── about.qmd\n├── assets\n├── blogs.qmd\n├── github-note.qmd\n├── index.qmd\n├── log.qmd\n├── main.qmd\n├── nextwatanabe3ticom.Rproj\n├── note1.qmd\n├── note2.qmd\n├── note3.qmd\n├── quarto.qmd\n├── siteview.qmd\n├── styles.css\n├── toolsmith.qmd\n├── webroot\n│   ├── about.html\n│   ├── assets\n│   ├── blogs.html\n│   ├── github.html\n│   ├── index.html\n│   ├── log.html\n│   ├── main.html\n│   ├── note1.html\n│   ├── note2.html\n│   ├── note3.html\n│   ├── quarto.html\n│   ├── search.json\n│   ├── site_libs\n│   ├── siteview.html\n│   ├── styles.css\n│   ├── toolsmith.html\n│   └── wiki.html\n└── wiki.qmd"
+  }
+]

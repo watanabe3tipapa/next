@@ -170,28 +170,28 @@
   {
     "objectID": "main.html",
     "href": "main.html",
-    "title": "サイトについて",
+    "title": "watanabe3ti.com について",
     "section": "",
     "text": "watanabe3ti.comは、grav & 手仕事 で構築しています。\n\n\nGravは、モダンでフラットファイルベースのCMSです。データベースを必要とせず、Markdownファイルで コンテンツを管理できる軽量なシステムです。\nおもな特徴として：\n\nシンプルな構造\n\nデータベース不要のフラットファイルシステム\nMarkdownによる直感的なコンテンツ作成\n\n高いカスタマイズ性\n\n豊富なプラグインとテーマ\nTwig テンプレートエンジンによる柔軟なデザイン\n\n高速なパフォーマンス\n\nキャッシュシステムによる高速な表示\n最小限のサーバーリソース要求"
   },
   {
     "objectID": "main.html#watanabe3ti.comとは",
     "href": "main.html#watanabe3ti.comとは",
-    "title": "サイトについて",
+    "title": "watanabe3ti.com について",
     "section": "",
     "text": "watanabe3ti.comは、grav & 手仕事 で構築しています。\n\n\nGravは、モダンでフラットファイルベースのCMSです。データベースを必要とせず、Markdownファイルで コンテンツを管理できる軽量なシステムです。\nおもな特徴として：\n\nシンプルな構造\n\nデータベース不要のフラットファイルシステム\nMarkdownによる直感的なコンテンツ作成\n\n高いカスタマイズ性\n\n豊富なプラグインとテーマ\nTwig テンプレートエンジンによる柔軟なデザイン\n\n高速なパフォーマンス\n\nキャッシュシステムによる高速な表示\n最小限のサーバーリソース要求"
   },
   {
     "objectID": "main.html#なぜgravを使うのか",
     "href": "main.html#なぜgravを使うのか",
-    "title": "サイトについて",
+    "title": "watanabe3ti.com について",
     "section": "なぜGravを使うのか？",
     "text": "なぜGravを使うのか？\n\n1. シンプルさと軽量性\n\nデータベース不要で、サーバー要件が最小限\nMarkdownによる直感的なコンテンツ作成\n設定やメンテナンスが容易\n\n\n\n2. 開発者フレンドリー\n\nGit連携による効率的なバージョン管理\nモダンなテクノロジースタック（PHP 7+, Twig, YAML）\n充実したドキュメントとアクティブなコミュニティ\n\n\n\n3. 高いパフォーマンス\n\nフラットファイル構造による高速な応答\n効率的なキャッシュシステム\n低いサーバーリソース消費\n\n\n\n4. 柔軟なカスタマイズ\n\n豊富なプラグインエコシステム\nテーマの自由なカスタマイズ\nAPIによる拡張性"
   },
   {
     "objectID": "main.html#始め方",
     "href": "main.html#始め方",
-    "title": "サイトについて",
+    "title": "watanabe3ti.com について",
     "section": "始め方",
     "text": "始め方\n\nGravのインストール\n\n\n必要要件\n\nPHP 7.3.6 以上\nPHP mbstring エクステンション\nPHP curl エクステンション\nPHP gd エクステンション\nPHP zip エクステンション\n\n\n\nインストール方法\n\n1. 直接ダウンロード\n\nGrav公式サイトから最新版をダウンロード\nZIPファイルを解凍してWebサーバーのルートディレクトリに配置\nファイルのパーミッションを設定:\n\nchmod 755 /path/to/grav-installation\nchmod 755 /path/to/grav-installation/bin\nchmod 755 /path/to/grav-installation/cache\nchmod 755 /path/to/grav-installation/logs\nchmod 755 /path/to/grav-installation/images\nchmod 755 /path/to/grav-installation/user/data\n\n\n2. Composerを使用したインストール\ncomposer create-project getgrav/grav ~/webroot/grav\n\n\n3. Git経由でのインストール\ngit clone -b master https://github.com/getgrav/grav.git\ncd grav\ncomposer install\n\n\n\nAdmin Pluginのインストール（推奨）\ncd /path/to/grav-installation\nbin/gpm install admin\n\n\nセキュリティ設定\n\nuser/config/security.yaml を作成\n以下の基本設定を追加：\n\nsecurity:\nsalt: 'your-random-string'\n\n\n初期設定の確認\n\nブラウザで http://your-domain.com/admin にアクセス\n初期セットアップウィザードに従って管理者アカウントを作成\n基本設定を確認・カスタマイズ\n\nこのインストールガイドでは： - 必要なシステム要件 - 3つの異なるインストール方法 - Admin Pluginのインストール手順 - 基本的なセキュリティ設定 - 初期セットアップの手順\nを説明しました。  環境に応じて最適なインストール方法を選択できます。\n==="
   },

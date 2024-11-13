@@ -13,7 +13,7 @@ tags: [wordpress, cms, git ]
 
 ## blogs.watanabe3ti.comとは？
 
-blogs.watanabe3ti.comは、BLOGアーカイブです。 本BLOG（ブクログ by Nifty）やサービス終了したワークフレームからコンテンツを抽出しWordPress用にコンバートしました。 常用DBの仕様変更の影響により残念ながら現在は運用を中断しています。
+[blogs.watanabe3ti.com](https://blogs.watanabe3ti.com/)は、BLOGアーカイブです。 本BLOG（ブクログ by Nifty）やサービス終了したワークフレームからコンテンツを抽出しWordPress用にコンバートしました。 常用DBの仕様変更の影響により残念ながら現在は運用を中断しています。
 
 ### 主な特徴
 

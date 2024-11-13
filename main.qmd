@@ -13,7 +13,7 @@ tags: [grav, cms, git ]
 
 ## watanabe3ti.comとは？
 
-watanabe3ti.comは、grav & 手仕事 で構築しています。
+[watanabe3ti.com](https://watanabe3ti.com/)は、grav & 手仕事 で構築しています。
 
 ### Gravについて
 

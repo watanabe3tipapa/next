@@ -13,7 +13,7 @@ tags: [basercms, cms, git ]
 
 ## toolsmith.watanabe3ti.comとは？
 
-toolsmith.watanabe3ti.comは、BaserCMSで構築しています。 単一のフォーマットから、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができます。
+[toolsmith.watanabe3ti.com](https://toolsmith.watanabe3ti.com)は、BaserCMSで構築しています。 単一のフォーマットから、ウェブサイト、ブログなど、様々な形式のドキュメントを生成することができます。
 
 ## baserCMSについて
 

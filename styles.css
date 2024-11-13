@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   
   /* 背景画像の設定 */
-  background-image: url('/assets/bg.jpg');
+  background-image: url('assets/bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

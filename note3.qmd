@@ -9,7 +9,13 @@ categories: [Quarto, Markdown, Notation ]
 tags: [quarto, cms, git ]
 ---
 
-## Note3とは？
+# Note3 = 手習い
+
+::: {.callout-caution appearance="simple"}
+## 準備中です
+:::
+
+===
 
 ![](./assets/UC900.jpg)
 

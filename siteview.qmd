@@ -5,8 +5,7 @@ date: last-modified
 image: "./assets/ogp_next.jpg"
 description: |
   next.watanabe3ti.comは quartoを利用し構築したサイトです。
-  ティザーサイトとしての役割（？）もあると思っています。
-  コードと文章を融合させた魅力的なドキュメントは良いものです。
+  Site view （各ファイルの配置）を紹介します。
 categories: [Quarto, Markdown, Notation ]
 tags: [quarto, cms, git ]
 ---
@@ -53,6 +52,10 @@ About this Site view
 └── wiki.qmd
 ```
 
-------------------------------------------------------------------------
+::: {.callout-important appearance="simple"}
+## 公開コンテンツは /webroot にあります
 
-===
+GitHubリポジトリには公開上必要と思われるファイルにはあえてプリフィックス（”\_”や”.”）を付けず置きました。
+:::
+
+------------------------------------------------------------------------

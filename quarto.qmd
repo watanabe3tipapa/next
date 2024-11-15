@@ -10,9 +10,9 @@ categories: [Quarto, 技術文書, データサイエンス]
 tags: [quarto ,cms ,git ]
 ---
 
-![](./assets/quarto-logo.png)
+# なぜQuartoを使うのか？
 
-## なぜQuartoを使うのか？
+## 特徴
 
 ### 1. 統合された開発環境
 
@@ -54,12 +54,10 @@ quarto create-project myproject --type website
 quarto render
 ```
 
-<br>
+===
 
 **一日一読** [TIPS](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
 
 **興味のある方は是非お試しください**
 
 ------------------------------------------------------------------------
-
-===

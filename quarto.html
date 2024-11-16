@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="watanabe3tipapa">
-<meta name="dcterms.date" content="2024-11-15">
+<meta name="dcterms.date" content="2024-11-16">
 <meta name="description" content="Quartoは、次世代の科学技術計算とテクニカルドキュメント作成のためのオープンソースシステムです。 コードと文章を融合させた魅力的なドキュメントを作成できます。">
 
 <title>Quartoで始める次世代のドキュメント作成 – next.watanabe3ti.com</title>
@@ -111,7 +111,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="custom-responsive.css">
 <meta property="og:title" content="Quartoで始める次世代のドキュメント作成 – next.watanabe3ti.com">
 <meta property="og:description" content="Quartoは、次世代の科学技術計算とテクニカルドキュメント作成のためのオープンソースシステムです。 コードと文章を融合させた魅力的なドキュメントを作成できます。">
-<meta property="og:image" content="./assets/ogp_next.jpg">
+<meta property="og:image" content="https://watanabe3tipapa.github.io/next/assets/ogp_next.jpg">
 <meta property="og:site_name" content="next.watanabe3ti.com">
 </head>
 
@@ -223,14 +223,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#なぜquartoを使うのか" id="toc-なぜquartoを使うのか" class="nav-link active" data-scroll-target="#なぜquartoを使うのか">なぜQuartoを使うのか？</a>
   <ul class="collapse">
-  <li><a href="#特徴" id="toc-特徴" class="nav-link" data-scroll-target="#特徴">特徴</a>
-  <ul class="collapse">
   <li><a href="#統合された開発環境" id="toc-統合された開発環境" class="nav-link" data-scroll-target="#統合された開発環境">1. 統合された開発環境</a></li>
   <li><a href="#再現可能な研究開発" id="toc-再現可能な研究開発" class="nav-link" data-scroll-target="#再現可能な研究開発">2. 再現可能な研究・開発</a></li>
   <li><a href="#柔軟な出力形式" id="toc-柔軟な出力形式" class="nav-link" data-scroll-target="#柔軟な出力形式">3. 柔軟な出力形式</a></li>
   </ul></li>
   <li><a href="#始め方" id="toc-始め方" class="nav-link" data-scroll-target="#始め方">始め方</a></li>
-  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -270,7 +267,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 15, 2024</p>
+      <p class="date">November 16, 2024</p>
     </div>
   </div>
   
@@ -282,10 +279,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="なぜquartoを使うのか" class="level1">
-<h1>なぜQuartoを使うのか？</h1>
-<section id="特徴" class="level2">
-<h2 class="anchored" data-anchor-id="特徴">特徴</h2>
+<p><img src="./assets/quarto-logo.png" class="img-fluid"></p>
+<section id="なぜquartoを使うのか" class="level2">
+<h2 class="anchored" data-anchor-id="なぜquartoを使うのか">なぜQuartoを使うのか？</h2>
 <section id="統合された開発環境" class="level3">
 <h3 class="anchored" data-anchor-id="統合された開発環境">1. 統合された開発環境</h3>
 <p>コードの作成から文書化、公開までをシームレスに行えます。RStudioやVS Codeなどの主要なIDEで快適に作業できます。</p>
@@ -319,13 +315,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>ドキュメントのレンダリング</li>
 </ol>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>===</p>
+<p><br></p>
 <p><strong>一日一読</strong> <a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/">TIPS</a></p>
 <p><strong>興味のある方は是非お試しください</strong></p>
 <hr>
+<p>===</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -565,7 +561,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/watanabe3tipapa\.github\.io\/next\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

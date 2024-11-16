@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="watanabe3tipapa">
-<meta name="dcterms.date" content="2024-11-15">
+<meta name="dcterms.date" content="2024-11-16">
 <meta name="description" content="log.watanabe3ti.comも WordPress を利用し構築したサイトです。 WPのテーマを試したりファイルのコンバートを試験する目的で設置しています。">
 
 <title>LOGについて – next.watanabe3ti.com</title>
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="custom-responsive.css">
 <meta property="og:title" content="LOGについて – next.watanabe3ti.com">
 <meta property="og:description" content="log.watanabe3ti.comも WordPress を利用し構築したサイトです。 WPのテーマを試したりファイルのコンバートを試験する目的で設置しています。">
-<meta property="og:image" content="./assets/ogp_next.jpg">
+<meta property="og:image" content="https://watanabe3tipapa.github.io/next/assets/ogp_next.jpg">
 <meta property="og:site_name" content="next.watanabe3ti.com">
 </head>
 
@@ -228,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 15, 2024</p>
+      <p class="date">November 16, 2024</p>
     </div>
   </div>
   
@@ -489,7 +489,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/watanabe3tipapa\.github\.io\/next\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

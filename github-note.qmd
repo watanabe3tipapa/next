@@ -1,5 +1,5 @@
 ---
-title: "GitHub（mirror）について"
+title: "GitHubとの連携について"
 author: "watanabe3tipapa"
 date: last-modified
 image: "assets/quarto-logo.png"
@@ -11,11 +11,33 @@ tags: [git, yml ,toml]
 
 ## GitHub（mirror）とは？
 
-### next.watanabe3ti.com \<-\> [github.Repository](https://github.com/watanabe3tipapa/next) \<-\> [GitHub Pages（NEXT）](https://watanabe3tipapa.github.io/next/)
+サブドメイン・サイトと GitHub（Repo） と GitHub pages と　Netlify（app）を連携し公開
 
-### and [Netlify（NEXT）](https://next-watanabe3ti.netlify.app)
+::: panel-tabset
+## next.watanabe3ti.com
 
-===
+[URL](https://next.watanabe3ti.com "NEXT（サブドメイン）")
+
+## GitHub（next）
+
+[URL](https://github.com/watanabe3tipapa/next "GitHub（next）")
+
+## GitHub pages
+
+[URL](https://watanabe3tipapa.github.io/next/ "GitHub pages")
+
+## Netlify（app）
+
+[URL](https://next-watanabe3ti.netlify.app "Netlify（app）")
+
+------------------------------------------------------------------------
+:::
+
+#### 
+
+------------------------------------------------------------------------
+
+## GitHub pages とは？
 
 ![](./assets/UC900.jpg)
 

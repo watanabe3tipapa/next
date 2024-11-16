@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="watanabe3tipapa">
-<meta name="dcterms.date" content="2024-11-15">
+<meta name="dcterms.date" content="2024-11-16">
 <meta name="description" content="GitHubには …">
 
-<title>GitHub（mirror）について – next.watanabe3ti.com</title>
+<title>GitHubとの連携について – next.watanabe3ti.com</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="custom-responsive.css">
-<meta property="og:title" content="GitHub（mirror）について – next.watanabe3ti.com">
+<meta property="og:title" content="GitHubとの連携について – next.watanabe3ti.com">
 <meta property="og:description" content="GitHubには …">
 <meta property="og:image" content="assets/quarto-logo.png">
 <meta property="og:site_name" content="next.watanabe3ti.com">
@@ -187,11 +187,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#githubmirrorとは" id="toc-githubmirrorとは" class="nav-link active" data-scroll-target="#githubmirrorとは">GitHub（mirror）とは？</a>
-  <ul class="collapse">
-  <li><a href="#next.watanabe3ti.com---github.repository---github-pagesnext" id="toc-next.watanabe3ti.com---github.repository---github-pagesnext" class="nav-link" data-scroll-target="#next.watanabe3ti.com---github.repository---github-pagesnext">next.watanabe3ti.com &lt;-&gt; github.Repository &lt;-&gt; GitHub Pages（NEXT）</a></li>
-  <li><a href="#and-netlifynext" id="toc-and-netlifynext" class="nav-link" data-scroll-target="#and-netlifynext">and Netlify（NEXT）</a></li>
-  </ul></li>
+  <li><a href="#githubmirrorとは" id="toc-githubmirrorとは" class="nav-link active" data-scroll-target="#githubmirrorとは">GitHub（mirror）とは？</a></li>
+  <li><a href="#github-pages-とは" id="toc-github-pages-とは" class="nav-link" data-scroll-target="#github-pages-とは">GitHub pages とは？</a></li>
   </ul>
 </nav>
 </nav>
@@ -204,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GitHub（mirror）について</h1>
+<h1 class="title">GitHubとの連携について</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Git</div>
     <div class="quarto-category">GitHub</div>
@@ -233,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 15, 2024</p>
+      <p class="date">November 16, 2024</p>
     </div>
   </div>
   
@@ -247,17 +244,36 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="githubmirrorとは" class="level2">
 <h2 class="anchored" data-anchor-id="githubmirrorとは">GitHub（mirror）とは？</h2>
-<section id="next.watanabe3ti.com---github.repository---github-pagesnext" class="level3">
-<h3 class="anchored" data-anchor-id="next.watanabe3ti.com---github.repository---github-pagesnext">next.watanabe3ti.com &lt;-&gt; <a href="https://github.com/watanabe3tipapa/next">github.Repository</a> &lt;-&gt; <a href="https://watanabe3tipapa.github.io/next/">GitHub Pages（NEXT）</a></h3>
+<p>サブドメイン・サイトと GitHub（Repo） と GitHub pages と　Netlify（app）を連携し公開</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">next.watanabe3ti.com</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">GitHub（next）</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GitHub pages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Netlify（app）</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><a href="https://next.watanabe3ti.com" title="NEXT（サブドメイン）">URL</a></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><a href="https://github.com/watanabe3tipapa/next" title="GitHub（next）">URL</a></p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p><a href="https://watanabe3tipapa.github.io/next/" title="GitHub pages">URL</a></p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p><a href="https://next-watanabe3ti.netlify.app" title="Netlify（app）">URL</a></p>
+<hr>
+</div>
+</div>
+</div>
+<section id="section" class="level4">
+<h4 class="anchored" data-anchor-id="section"></h4>
+<hr>
 </section>
-<section id="and-netlifynext" class="level3">
-<h3 class="anchored" data-anchor-id="and-netlifynext">and <a href="https://next-watanabe3ti.netlify.app">Netlify（NEXT）</a></h3>
-<p>===</p>
+</section>
+<section id="github-pages-とは" class="level2">
+<h2 class="anchored" data-anchor-id="github-pages-とは">GitHub pages とは？</h2>
 <p><img src="./assets/UC900.jpg" class="img-fluid"></p>
 <hr>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

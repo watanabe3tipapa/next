@@ -23,6 +23,20 @@ tags: [quarto, cms, git ]
 
 ------------------------------------------------------------------------
 
+### Rendering && Publish
+
+**Case: next.watanabe3ti.com & mirror site**
+
+```{bash}
+quarto publish gh-pages
+```
+
+![Command](assets/IMG_quarto_publish_gh-pages.jpg){fig-align="left"}
+
+------------------------------------------------------------------------
+
+・・・
+
 ![](./assets/UC900.jpg)
 
 ------------------------------------------------------------------------

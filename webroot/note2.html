@@ -111,7 +111,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="custom-responsive.css">
 <meta property="og:title" content="Note2 – next.watanabe3ti.com">
 <meta property="og:description" content="Note2">
-<meta property="og:image" content="https://watanabe3tipapa.github.io/next/assets/ogp_next.jpg">
+<meta property="og:image" content="./assets/ogp_next.jpg">
 <meta property="og:site_name" content="next.watanabe3ti.com">
 </head>
 
@@ -574,7 +574,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/watanabe3tipapa\.github\.io\/next\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
